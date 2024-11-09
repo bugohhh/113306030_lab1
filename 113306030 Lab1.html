@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>113306030</title>
+</head>
+<body>
+<form action="/actoin_page.php" method="post">
+<table border="1">
+	<thead>
+		<tr>
+			<th colspan = "3">
+				<strong>About -- 113306030</strong><br>
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td rowspan = "5">
+			<img src = "IMG_8012.jpg" width = "200" height = "250" alt = "personal photo">
+		</td>
+		<td>Name:</td>
+		<td><input type="text" name="name"></td>
+	</tr>
+	<tr>
+		<td>Gender:</td>
+		<th>
+			<input type="radio" name="Gender:" value="Male" checked>Male
+			<input type="radio" name="Gender:" value="Female" checked>Female
+			<input type="radio" name="Gender:" value="Other" checked>Other
+		</th>
+	</tr>
+	<tr>
+		<td>County:</td>
+		<th><form action="/actoin_page.php">
+			<select name="county">
+				<option value="Taipei">Taipei</option>
+				<option value="Tainan">Tainan</option>
+				<option value="Taichung">Taicung</option>
+				<option value="Taoyuan">Taoyuan</option>
+			</select>
+			<br><br>
+		</form>
+		</th>
+	<tr>
+		<tr>
+		<th>Birthday:</th>
+		<th>
+		<form action="/actoin_page.php">
+			<label for="birthday">Birthday:</label>
+			<input type="date" id="birthday" name="birthday">
+		</form>
+		</th>
+	</tr>
+	<tr>
+		<th>
+		<th>E-mail:</th>
+		<th>
+		<input type="email" anme="email">
+		</th>
+	</tr>
+	<tr>
+		<th>Hobby:</th>
+		<th colspan="2">
+		<form action="/actoin_page.php method="get>
+			<input type="checkbox" name="hobby" value="swimming">Swimming
+			<input type="checkbox" name="hobby" value="volleyball">Volleyball
+			<input type="checkbox" name="hobby" value="movie">Movie
+			<input type="checkbox" name="hobby" value="game">Game
+			<input type="checkbox" name="hobby" value="sleep">Sleep
+		</form>
+		</th>
+	</tr>
+	<tr>
+		<th>Skill:</th>
+		<th colspan="2">
+		<form action="/actoin_page.php" method="get">
+			<input type="checkbox" name="skill" value="java">Java
+			<input type="checkbox" name="skill" value="html">HTML
+			<input type="checkbox" name="skill" value="python">Python
+			<input type="checkbox" name="skill" value="microsoft office">Microsoft Office
+			<input type="checkbox" name="skill" value="premiere">Premiere
+		</form>
+		</th>
+	</tr>
+	<tr>
+		<th>Say Something:</th>
+		<td colspan="2">
+			<textarea placeholder="Say something here."></textarea>
+		</td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
